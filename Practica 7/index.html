@@ -1,0 +1,220 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+  <title>Bootstrap</title> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+</head> 
+<body> 
+  <div class="container" style="background-color:#ccc">
+    <h3 style="background-color: pink; text-align: center;">Aqui vemos como se muestran varias líneas en una misma fila "row"</h3>
+    <div class="row">
+      <div class="col-3"  style="background-color:#aaa">
+        <h1>Columna 1 <br> Linea 1</h1> 
+      </div>
+      <div class="col-6"  style="background-color:#bbb">
+        <h1>Columna 2 <br> Linea 1</h1> 
+      </div>
+      <div class="w-100"></div>
+      <div class="col-6"  style="background-color:#aaa">
+        <h1>Columna 1 <br>Linea 2</h1> 
+      </div>
+      <div class="col-6"  style="background-color:#bbb">
+        <h1>Columna 2 <br>Linea 2</h1> 
+      </div>      
+    </div>  <br><br><br>
+    <h3 style="background-color: pink; text-align: center;">Aqui vemos como reordenar las columnas en una fila</h3>
+    <div class="row">
+      <div class="col order-3"  style="background-color:#aaa">
+        <h1>Columna 1</h1> 
+      </div>
+      <div class="col order-2"  style="background-color:#bbb">
+        <h1>Columna 2</h1> 
+      </div>
+      <div class="col order-1"  style="background-color:#aaa">
+        <h1>Columna 3</h1> 
+      </div>
+    </div>  <br><br><br>
+    <h3 style="background-color: pink; text-align: center;">Aqui vemos el anidamiento de columnas</h3>
+
+    <div class="row">
+      <div class="col-lg-6"  style="background-color:#aaa">
+        <h1>Columna 1</h1> 
+        <p>Esto es una prueba de bootstrap 4.</p>
+      </div>
+      <div class="col-lg-6"  style="background-color:#bbb">
+        <h1>Columna 2</h1> 
+        <p>Esto es una prueba de bootstrap 4.</p>
+
+        <div class="row">  
+          <div class="col-lg-6" style="background-color:#ccc">
+            <h2>Columna 2a</h2>
+            <p>Esto es una prueba de bootstrap 4.</p>
+          </div>  
+          <div class="col-lg-6" style="background-color:#ddd">
+            <h2>Columna 2b</h2>
+            <p>Esto es una prueba de bootstrap 4.</p>
+          </div>  
+        </div>
+      </div>
+    </div><br><br><br>
+    <h3 style="background-color: pink; text-align: center;">Aqui vemos el desplazamiento de columnas (offset)</h3>
+    <div class="row">
+      <div class="col-lg-4"  style="background-color:#aaa">
+        <h1>Uno</h1> 
+      </div>
+      <div class="col-lg-4 offset-lg-4"  style="background-color:#bbb">
+        <h1>Dos</h1> 
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4 offset-lg-4"  style="background-color:#aaa">
+        <h1>Tres</h1> 
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4"  style="background-color:#aaa">
+        <h1>Cuatro</h1> 
+      </div>
+      <div class="col-lg-4 offset-lg-4"  style="background-color:#bbb">
+        <h1>Cinco</h1> 
+      </div>
+    </div><br><br><br>
+    <h3 style="background-color: pink; text-align: center;">Aqui vemos una tabla basica (table)</h3>
+
+    <table class="table">
+      <thead> 
+        <tr> 
+          <th>Titulo 1</th> 
+          <th>Titulo 2</th>
+          <th>Titulo 3</th>
+        </tr> 
+      </thead>
+      <tbody>
+        <tr> 
+          <td>Elemento 1,1</td>
+          <td>Elemento 1,2</td> 
+          <td>Elemento 1,3</td> 
+        </tr>
+        <tr> 
+          <td>Elemento 2,1</td>
+          <td>Elemento 2,2</td> 
+          <td>Elemento 2,3</td> 
+        </tr>
+        <tr> 
+          <td>Elemento 3,1</td>
+          <td>Elemento 3,2</td> 
+          <td>Elemento 3,3</td> 
+        </tr>
+      </tbody>
+    </table><br><br><br>
+    <h3 style="background-color: pink; text-align: center;">tabla básica con color oscuro</h3>
+
+    <table class="table table-dark">
+      <thead> 
+        <tr> 
+          <th>Titulo 1</th> 
+          <th>Titulo 2</th>
+          <th>Titulo 3</th>
+        </tr> 
+      </thead>
+      <tbody>
+        <tr> 
+          <td>Elemento 1,1</td>
+          <td>Elemento 1,2</td> 
+          <td>Elemento 1,3</td> 
+        </tr>
+        <tr> 
+          <td>Elemento 2,1</td>
+          <td>Elemento 2,2</td> 
+          <td>Elemento 2,3</td> 
+        </tr>
+        <tr> 
+          <td>Elemento 3,1</td>
+          <td>Elemento 3,2</td> 
+          <td>Elemento 3,3</td> 
+        </tr>
+      </tbody>
+    </table><br><br><br>
+    <h3 style="background-color: pink; text-align: center;">tabla con filas con colores alternados</h3>
+
+    <table class="table table-striped">
+      <thead> 
+        <tr> 
+          <th>Titulo 1</th> 
+          <th>Titulo 2</th>
+          <th>Titulo 3</th>
+        </tr> 
+      </thead>
+      <tbody>
+        <tr> 
+          <td>Elemento 1,1</td>
+          <td>Elemento 1,2</td> 
+          <td>Elemento 1,3</td> 
+        </tr>
+        <tr> 
+          <td>Elemento 2,1</td>
+          <td>Elemento 2,2</td> 
+          <td>Elemento 2,3</td> 
+        </tr>
+        <tr> 
+          <td>Elemento 3,1</td>
+          <td>Elemento 3,2</td> 
+          <td>Elemento 3,3</td> 
+        </tr>
+        <tr> 
+          <td>Elemento 4,1</td>
+          <td>Elemento 4,2</td> 
+          <td>Elemento 4,3</td> 
+        </tr>
+        <tr> 
+          <td>Elemento 5,1</td>
+          <td>Elemento 5,2</td> 
+          <td>Elemento 5,3</td> 
+        </tr>
+      </tbody>
+    </table><br><br><br>
+    <h3 style="background-color: pink; text-align: center;">tabla con borde en cada celda</h3>
+
+    <table class="table table-bordered">
+      <thead> 
+        <tr> 
+          <th>Titulo 1</th> 
+          <th>Titulo 2</th>
+          <th>Titulo 3</th>
+        </tr> 
+      </thead>
+      <tbody>
+        <tr> 
+          <td>Elemento 1,1</td>
+          <td>Elemento 1,2</td> 
+          <td>Elemento 1,3</td> 
+        </tr>
+        <tr> 
+          <td>Elemento 2,1</td>
+          <td>Elemento 2,2</td> 
+          <td>Elemento 2,3</td> 
+        </tr>
+        <tr> 
+          <td>Elemento 3,1</td>
+          <td>Elemento 3,2</td> 
+          <td>Elemento 3,3</td> 
+        </tr>
+        <tr> 
+          <td>Elemento 4,1</td>
+          <td>Elemento 4,2</td> 
+          <td>Elemento 4,3</td> 
+        </tr>
+        <tr> 
+          <td>Elemento 5,1</td>
+          <td>Elemento 5,2</td> 
+          <td>Elemento 5,3</td> 
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body> 
+</html> 
