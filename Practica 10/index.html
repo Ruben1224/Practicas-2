@@ -1,0 +1,113 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+  <title>Practica 10</title> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+</head> 
+<body> 
+  <div class="container">
+    <h3 style="text-align: center; background-color: pink;">Aqui se ve el atributo tamaño de los botones</h3><br><br>
+    <form>
+      <button type="submit" class="btn btn-primary btn-sm">btn-sm : tamaño pequeño</button>       
+      <button type="submit" class="btn btn-primary btn-lg">btn-lg : tamaño grande</button>       
+      <button type="submit" class="btn btn-primary">tamaño normal</button>
+      <hr>
+      <button type="submit" class="btn btn-primary btn-sm btn-block">btn-sm btn-block: tamaño pequeño</button>
+      <button type="submit" class="btn btn-primary btn-lg btn-block">btn-lg btn-block: tamaño grande</button>       
+      <button type="submit" class="btn btn-primary btn-block">btn-block: tamaño normal</button>       
+   </form><br><br><br>
+   
+   <h3 style="text-align: center; background-color: pink;">Aqui se ven botones desactivados</h3><br><br>
+   <form>
+    <button type="submit" class="btn btn-primary btn-lg">Botón activo</button>       
+    <button type="submit" class="btn btn-primary btn-lg" disabled="disabled">Botón 1 desactivo</button>       
+    <button type="submit" class="btn btn-primary btn-lg" disabled="disabled">Botón 2 desactivo</button>       
+    <button type="submit" class="btn btn-primary btn-lg" disabled="disabled">Botón 3 desactivo</button>       
+ </form><br><br><br>
+ <h3 style="text-align: center; background-color: pink;">Aqui se ven grupo de botones, barra de herramientas, tamaños y orientación de los botones</h3><br><br>
+ <div class="btn-group">
+  <button type="button" class="btn btn-primary">1</button>
+  <button type="button" class="btn btn-primary">2</button>
+  <button type="button" class="btn btn-primary">3</button>
+</div>
+<hr>
+<div class="btn-toolbar">
+  <div class="btn-group mr-3">
+    <button type="button" class="btn btn-primary">uno</button>
+    <button type="button" class="btn btn-primary">dos</button>
+    <button type="button" class="btn btn-primary">tres</button>
+    <button type="button" class="btn btn-primary">cuatro</button>
+  </div> 
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary">one</button>
+    <button type="button" class="btn btn-primary">two</button>
+    <button type="button" class="btn btn-primary">three</button>
+    <button type="button" class="btn btn-primary">four</button>
+  </div>
+ </div><br><br><br>
+ <h3 style="text-align: center; background-color: pink;">Aqui se ve la tipografia default de bootstrap 4</h3><br><br>
+ <h1>Titulo de nivel 1</h1> 
+    <h2>Titulo de nivel 2</h2>
+    <h3>Titulo de nivel 3</h3>
+    <h4>Titulo de nivel 4</h4>
+    <h5>Titulo de nivel 5</h5>
+    <h6>Titulo de nivel 6</h6>
+    <hr>
+    <p class="h1">Texto con la clase h1</p> 
+    <p class="h2">Texto con la clase h2</p> 
+    <p class="h3">Texto con la clase h3</p> 
+    <p class="h4">Texto con la clase h4</p> 
+    <p class="h5">Texto con la clase h5</p> 
+    <p class="h6">Texto con la clase h6</p><br><br>
+  <h3 style="text-align: center; background-color: pink;">Aqui vemos la tipografia de listas</h3><br><br>
+  <p>Ejemplo de lista ordenada</p>
+      <ol> 
+        <li>Primer elemento</li>
+        <li>Segundo elemento</li>
+        <li>Tercer elemento</li>
+        <li>Cuarto elemento</li>
+      </ol><br><br><br>
+      <h3 style="text-align: center; background-color: pink;">Aqui vemos abreviaturas iniciales</h3><br><br>
+      <p>Este es un ejemplo de una abreviatura <abbr title="Señor/a">Sr./a.</abbr></p>
+      <hr>
+      <p>Este es un ejemplo de un acrónimo <abbr title="Objeto Volador No Identificado" class="initialism">ovni</abbr></p><br><br><br>
+      <h3 style="text-align: center; background-color: pink;">Aqui vemos codigo y bloques de codigo</h3><br><br>
+      <p>Ejemplo del elemento HTML code</p>
+      <p>Nuestro primera línea en Basic puede haber sido <code>10 print "Hola Mundo"</code></p><br><br><br>
+      <h3 style="text-align: center; background-color: pink;">Aqui vemos clases para el alineado, justificado, transformación de texto etc.</h3><br><br>
+      <p class="text-left">Texto alineado a la izquierda.</p>
+      <hr>
+      <p class="text-right">Texto alineado a la derecha.</p>  
+      <hr>
+      <p class="text-center">Texto centrado.</p>
+      <hr>
+      <p class="text-justify">
+      Texto justificado.Texto justificado.
+      Texto justificado.Texto justificado.
+      Texto justificado.Texto justificado.
+      Texto justificado.Texto justificado.
+      Texto justificado.Texto justificado.</p>    
+      <hr>
+      <p class="small">Texto pequeño.</p>    
+      <hr>
+      <p class="lead">Texto destacado.</p>    
+      <hr>
+      <p class="text-nowrap">
+      Texto no ajustado.Texto no ajustado.Texto no ajustado.
+      Texto no ajustado.Texto no ajustado.Texto no ajustado.
+      Texto no ajustado.Texto no ajustado.Texto no ajustado.
+      Texto no ajustado.</p>    
+      <hr>
+      <p class="text-lowercase">Texto en Minúsculas.</p>    
+      <hr>
+      <p class="text-uppercase">Texto en Mayúsculas.</p>    
+      <hr>
+      <p class="text-capitalize">texto capitalizado.</p>    
+      <hr>
+      <p class="mark">Texto marcado.</p>    
+      <p>Presion la tecla <kbd>Ctrl T</kbd></p>
+    </div> 
+</body> 
+</html> 
